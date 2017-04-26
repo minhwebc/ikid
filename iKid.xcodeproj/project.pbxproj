@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A803F79B1EB0750900F66E09 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803F79A1EB0750900F66E09 /* PunViewController.swift */; };
+		A803F79D1EB0751800F66E09 /* PunFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803F79C1EB0751800F66E09 /* PunFirstViewController.swift */; };
+		A803F79F1EB0752400F66E09 /* PunSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803F79E1EB0752400F66E09 /* PunSecondViewController.swift */; };
+		A803F7A11EB0773C00F66E09 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803F7A01EB0773C00F66E09 /* GoodViewController.swift */; };
+		A803F7A31EB0776700F66E09 /* GoodFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803F7A21EB0776700F66E09 /* GoodFirstViewController.swift */; };
+		A803F7A51EB0777100F66E09 /* GoodSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803F7A41EB0777100F66E09 /* GoodSecondViewController.swift */; };
 		A8BC9BB81EB05EFA0004F531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BB71EB05EFA0004F531 /* AppDelegate.swift */; };
 		A8BC9BBA1EB05EFA0004F531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BB91EB05EFA0004F531 /* ViewController.swift */; };
 		A8BC9BBD1EB05EFA0004F531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BC9BBB1EB05EFA0004F531 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		A8BC9BC21EB05EFA0004F531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BC9BC01EB05EFA0004F531 /* LaunchScreen.storyboard */; };
 		A8BC9BCD1EB05EFA0004F531 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BCC1EB05EFA0004F531 /* iKidTests.swift */; };
 		A8BC9BD81EB05EFA0004F531 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BD71EB05EFA0004F531 /* iKidUITests.swift */; };
+		A8BC9BE61EB06B930004F531 /* FirstDadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BE51EB06B930004F531 /* FirstDadViewController.swift */; };
+		A8BC9BE81EB06BA70004F531 /* SecondDadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BE71EB06BA70004F531 /* SecondDadViewController.swift */; };
+		A8BC9BEA1EB06D2A0004F531 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9BE91EB06D2A0004F531 /* DadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A803F79A1EB0750900F66E09 /* PunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		A803F79C1EB0751800F66E09 /* PunFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunFirstViewController.swift; sourceTree = "<group>"; };
+		A803F79E1EB0752400F66E09 /* PunSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunSecondViewController.swift; sourceTree = "<group>"; };
+		A803F7A01EB0773C00F66E09 /* GoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		A803F7A21EB0776700F66E09 /* GoodFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodFirstViewController.swift; sourceTree = "<group>"; };
+		A803F7A41EB0777100F66E09 /* GoodSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodSecondViewController.swift; sourceTree = "<group>"; };
 		A8BC9BB41EB05EFA0004F531 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BC9BB71EB05EFA0004F531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BC9BB91EB05EFA0004F531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		A8BC9BD31EB05EFA0004F531 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BC9BD71EB05EFA0004F531 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		A8BC9BD91EB05EFA0004F531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BC9BE51EB06B930004F531 /* FirstDadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDadViewController.swift; sourceTree = "<group>"; };
+		A8BC9BE71EB06BA70004F531 /* SecondDadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDadViewController.swift; sourceTree = "<group>"; };
+		A8BC9BE91EB06D2A0004F531 /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,15 @@
 				A8BC9BB71EB05EFA0004F531 /* AppDelegate.swift */,
 				A8BC9BB91EB05EFA0004F531 /* ViewController.swift */,
 				A8BC9BBB1EB05EFA0004F531 /* Main.storyboard */,
+				A803F7A01EB0773C00F66E09 /* GoodViewController.swift */,
+				A803F7A21EB0776700F66E09 /* GoodFirstViewController.swift */,
+				A803F7A41EB0777100F66E09 /* GoodSecondViewController.swift */,
+				A803F79A1EB0750900F66E09 /* PunViewController.swift */,
+				A803F79C1EB0751800F66E09 /* PunFirstViewController.swift */,
+				A803F79E1EB0752400F66E09 /* PunSecondViewController.swift */,
+				A8BC9BE91EB06D2A0004F531 /* DadViewController.swift */,
+				A8BC9BE51EB06B930004F531 /* FirstDadViewController.swift */,
+				A8BC9BE71EB06BA70004F531 /* SecondDadViewController.swift */,
 				A8BC9BBE1EB05EFA0004F531 /* Assets.xcassets */,
 				A8BC9BC01EB05EFA0004F531 /* LaunchScreen.storyboard */,
 				A8BC9BC31EB05EFA0004F531 /* Info.plist */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BC9BE81EB06BA70004F531 /* SecondDadViewController.swift in Sources */,
+				A8BC9BE61EB06B930004F531 /* FirstDadViewController.swift in Sources */,
+				A803F7A51EB0777100F66E09 /* GoodSecondViewController.swift in Sources */,
+				A803F7A31EB0776700F66E09 /* GoodFirstViewController.swift in Sources */,
+				A803F79D1EB0751800F66E09 /* PunFirstViewController.swift in Sources */,
 				A8BC9BBA1EB05EFA0004F531 /* ViewController.swift in Sources */,
 				A8BC9BB81EB05EFA0004F531 /* AppDelegate.swift in Sources */,
+				A803F79B1EB0750900F66E09 /* PunViewController.swift in Sources */,
+				A803F79F1EB0752400F66E09 /* PunSecondViewController.swift in Sources */,
+				A803F7A11EB0773C00F66E09 /* GoodViewController.swift in Sources */,
+				A8BC9BEA1EB06D2A0004F531 /* DadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iKid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.qn611996.iKid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iKid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.qn611996.iKid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +545,7 @@
 				A8BC9BDE1EB05EFA0004F531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8BC9BDF1EB05EFA0004F531 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +554,7 @@
 				A8BC9BE11EB05EFA0004F531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8BC9BE21EB05EFA0004F531 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +563,7 @@
 				A8BC9BE41EB05EFA0004F531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
