@@ -27,9 +27,14 @@ class GoodViewController: UIViewController {
         super.init(coder: aDecoder)
         firstViewController = nil;
         secondViewController = nil;
+        thirdViewController = nil;
+        fourthViewController = nil;
     }
     var firstViewController : GoodFirstViewController!
     var secondViewController : GoodSecondViewController!
+    var thirdViewController : GoodThirdViewController!
+    var fourthViewController : GoodFourthViewController!
+    
     fileprivate func firstBuilder() {
         if firstViewController == nil {
             firstViewController =
@@ -46,10 +51,27 @@ class GoodViewController: UIViewController {
                 as! GoodSecondViewController
         }
     }
-
+    fileprivate func thirdBuilder() {
+        if thirdViewController == nil {
+            thirdViewController =
+                storyboard?
+                    .instantiateViewController(withIdentifier: "Seventh")
+                as! GoodThirdViewController
+        }
+    }
+    fileprivate func fourthBuilder() {
+        if fourthViewController == nil {
+            fourthViewController =
+                storyboard?
+                    .instantiateViewController(withIdentifier: "Eighth")
+                as! GoodFourthViewController
+        }
+    }
     @IBAction func switchView(_ sender: Any) {
         secondBuilder()
         firstBuilder()
+        thirdBuilder()
+        fourthBuilder()
         
         UIView.beginAnimations("View Flip", context: nil)
         UIView.setAnimationDuration(0.4)
@@ -60,11 +82,22 @@ class GoodViewController: UIViewController {
             UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
             secondViewController.view.frame = view.frame
             switchViewController(firstViewController, to: secondViewController)
+        } else if secondViewController != nil &&
+            secondViewController?.view.superview != nil{
+            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
+            thirdViewController.view.frame = view.frame
+            switchViewController(secondViewController, to: thirdViewController)
+        }
+        else if thirdViewController != nil &&
+            thirdViewController?.view.superview != nil{
+            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
+            thirdViewController.view.frame = view.frame
+            switchViewController(thirdViewController, to: fourthViewController)
         }
         else {
             UIView.setAnimationTransition(.flipFromLeft, for: view, cache: true)
             firstViewController.view.frame = view.frame
-            switchViewController(secondViewController, to: firstViewController)
+            switchViewController(fourthViewController, to: firstViewController)
         }
         UIView.commitAnimations()
     }
